@@ -436,15 +436,15 @@ client.on('message', msg => {
 });
 client.on('message', msg => {
   if (msg.content === '!help') {
-  msg.reply("```**Commands ! **```"+
-    "```!easy riddle = Easy Riddles, :smirk: ```" +
-     "```!hard riddle = Hard Riddles,:thinking:  ```" +
-      "```!best riddle = Best Riddles,:smile: ```" +
-      "```!brain teaser = Brain Teaser's, :confounded: ```" +
-       "```!math riddle = Math Riddles, :nerd: ```" +
-        "```!funny riddle = Funny Riddles, :joy: ```"+
-         "```!good riddle = Good Riddles, :smiley: ```" +
-          "```!kids riddle = Kid's Riddles :baby:  ```");
+  msg.reply(' **Commands ! **\
+    --- !easy riddle = Easy Riddles, :smirk: --- \
+    --- !hard riddle = Hard Riddles, :thinking: --- \
+    --- !best riddle  = Best Riddles, :smile: --- \
+    --- !brain teaser = Brain Teasers, :confounded: --- \
+    --- !math riddle = Math Riddles, :nerd: --- \
+    --- !funny riddle = Funny Riddles, :joy: --- \
+    --- !good riddle = Good Riddles, :smiley: --- \
+    --- !kids riddle = Kids Riddles :baby: --- ' );
   }
 });
 
